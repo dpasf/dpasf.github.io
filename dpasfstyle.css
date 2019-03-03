@@ -1,0 +1,38 @@
+body {
+  background-color: lightskyblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  color: navy;
+  margin-left: 20px;
+  font-size: 28px;
+
+}
+
+table.toctable {
+  border: 1px solid black;
+  font-size: 24px;
+}
+
+th.toctable {
+  border: 1px solid black;
+}
+
+table.maintable {
+width: 75%;
+}
+
+th, td {
+  vertical-align: text-top;
+  padding: 2px;
+  text-align: left;
+}
+
+p.maintable {
+  line-height: 1.25;
+  font-size: 20px;
+}
