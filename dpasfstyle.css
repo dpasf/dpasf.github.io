@@ -9,7 +9,7 @@ a {
 h3 {
   color: navy;
   margin-left: 20px;
-  font-size: 28px;
+  font-size: 22px;
 
 }
 
@@ -23,7 +23,6 @@ th.toctable {
 }
 
 table.maintable {
-width: 75%;
 }
 
 th, td {
