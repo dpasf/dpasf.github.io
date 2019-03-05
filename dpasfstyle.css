@@ -28,8 +28,8 @@ td {
   text-align: left;
 }
 
-p.maintable {
-  line-height: 1.35;
+p {
+  line-height: 1.15;
   font-size: 20px;
-  margin: 5px 5px 5px 20px;
+  margin: 1px 1px 1px 20px;
 }
