@@ -1,31 +1,28 @@
 body {
-  background-color: lightskyblue;
+  background-color: aliceblue;
 }
 
 a {
   text-decoration: none;
 }
 
-h3 {
-  color: navy;
-  margin-left: 20px;
-  font-size: 22px;
-
-}
-
 table.toctable {
   border: 1px solid black;
+}
+
+th.tocprimary {
   font-size: 24px;
-}
-
-th.toctable {
   border: 1px solid black;
+  background-color: yellow;
 }
 
-table.maintable {
+th.tocsecondary {
+  border: 1px solid black;
+  font-size: 22px;
 }
 
-th, td {
+
+td {
   vertical-align: text-top;
   padding: 2px;
   text-align: left;
