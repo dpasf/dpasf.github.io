@@ -1,35 +1,65 @@
-body {
-  background-color: aliceblue;
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+a:link {
   text-decoration: none;
 }
 
-table.toctable {
-  border: 1px solid black;
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-th.tocprimary {
-  font-size:18;
-  padding: 1px;
-  border: 1px solid black;
-  background-color: yellow;
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #002244;  /* Rams Blue #002244 - background of nav menu*/
 }
 
-th.tocsecondary {
-  border: 1px solid black;
-  font-size: 18;
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFCD00;    /* Rams yellow #FFCD00 normal text color */ 
+  font-size: 22px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+  background-color: black;     
+  color: white;    /* text */
+}
 
-td {
-  vertical-align: text-top;
+.active {
+  background-color: #552583;   /* Lakers Purple */
+  color: #FDB927;    /* Lakers Gold */
+}
+
+/* Style the lists to not be bulletted */
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the grid container within the content area */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  padding: 10px;
+  font-size: 20px;
   text-align: left;
-}
-
-p {
-  line-height: 1.3;
-  font-size:16;
-  margin: 1px 1px 1px 20px;
 }
