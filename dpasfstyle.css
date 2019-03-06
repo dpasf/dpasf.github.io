@@ -52,7 +52,7 @@ ul.demo {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: 350px  350px  350px  350px;
   background-color: #2196F3;
   padding: 10px;
 }
