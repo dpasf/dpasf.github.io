@@ -48,14 +48,9 @@ ul.demo {
   padding: 0;
 }
 
-/* Style the grid container within the content area */
+/* Style the grid container */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 350px  350px  350px  350px;
-  background-color: #2196F3;
-  padding: 10px;
-}
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 0px;
