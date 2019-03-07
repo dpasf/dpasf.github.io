@@ -24,7 +24,7 @@ body {
   float: left;
   display: block;
   color: #FFCD00;    /* Rams yellow #FFCD00 normal text color */ 
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,6 +55,6 @@ ul.demo {
   background-color: rgba(255, 255, 255, 0.8);
   border: 0px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
 }
