@@ -11,19 +11,20 @@ a:link {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f3ce;  /* page background */
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #002244;  /* Rams Blue #002244 - background of nav menu*/
+  background-color: #00293c;  /* Rams Blue #002244 - background of nav menu*/
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #FFCD00;    /* Rams yellow #FFCD00 normal text color */ 
+  color: #f1f3ce;    
   font-size: 20px;
   text-align: center;
   padding: 14px 16px;
@@ -36,9 +37,9 @@ body {
   color: white;    /* text */
 }
 
-.active {
-  background-color: #552583;   /* Lakers Purple */
-  color: #FDB927;    /* Lakers Gold */
+.active {    /* active page marker */
+  background-color: #1e656d;   /* background */
+  
 }
 
 /* Style the lists to not be bulletted */
@@ -48,11 +49,7 @@ ul.demo {
   padding: 0;
 }
 
-/* Style the grid container */
-
-
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
   border: 0px;
   padding: 10px;
   font-size: 18px;
