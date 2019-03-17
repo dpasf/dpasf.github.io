@@ -11,13 +11,13 @@ a:link {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f1f3ce;  /* page background */
+  background-color: #90afc5;  /* page background */
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #00293c;  /* Rams Blue #002244 - background of nav menu*/
+  background-color: #2a3132;  /* background of nav menu for unpicked pages*/
 }
 
 /* Style the topnav links */
@@ -38,7 +38,7 @@ body {
 }
 
 .active {    /* active page marker */
-  background-color: #1e656d;   /* background */
+  background-color: #336b87;   /* background for picked page */
   
 }
 
@@ -52,6 +52,10 @@ ul.demo {
 .grid-item {
   border: 0px;
   padding: 10px;
-  font-size: 18px;
   text-align: left;
+}
+
+li {
+  font-size: 19px;
+  padding: 3px;
 }
